@@ -232,3 +232,22 @@ li {
 .courses-yellow a {
     color: #fff;
 }
+
+.access h3{
+    color: #3959d9;
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.access-warp {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer {
+    color: #3959d9;
+    text-align: center;
+}
