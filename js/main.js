@@ -4,4 +4,27 @@ $(function(){
         interval: 5000,
         loop: true
     });
+
+    $('.slider').slick({
+        arrows: false,
+        autoplay: false,
+        dots: true,
+        centerMode: true,
+        centerPadding: '20%',
+    });
+
+    $(document).ready(function(){
+        $('.fuwat').css('visibility','hidden');
+        $(window).scroll(function(){
+         var windowHeight = $(window).height(),
+             topWindow = $(window).scrollTop();
+         $('.fuwat').each(function(){
+          var objectPosition = $(this).offset().top;
+          if(topWindow > objectPosition - windowHeight + 200){
+           $(this).addClass("fuwatAnime");
+          }
+         });
+        });
+      });
 });
+
