@@ -17,6 +17,7 @@ nav a {
     display: block;
     font-size: 20px;
     font-weight: bold;
+    font-family: Futura;
 }
 
 nav li {
@@ -45,6 +46,7 @@ li {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+    font-family: Futura;
 }
 
 .fuwatAnime {
@@ -74,6 +76,7 @@ li {
     font-size: 40px;
     padding: 50px;
     font-weight: bold;
+    font-family: Futura;
 }
 
 .introducion-class {
@@ -89,6 +92,7 @@ li {
 .introduction-p {
     width: 400px;
     margin: 30px;
+    line-height: 2em
 }
 
 .introduction-yellow {
@@ -129,11 +133,16 @@ li {
     font-size: 40px;
     padding: 50px;
     font-weight: bold;
+    font-family: Futura;
 }
 
+#hoge{
+    margin:0 auto;
+    background-color:rgb(160, 234, 255);
+  }
 
 .courses {
-    background-color: rgb(82, 187, 248);
+    /* background-color: rgb(82, 187, 248); */
 }
 
 .courses-class {
@@ -155,7 +164,7 @@ li {
     padding: 30px;
     background-color: #ffffff;
     border-radius: 10px;
-    display: flex;
+    /* display: flex; */
     /* flex-direction: inherit; */
     flex-direction: column;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -168,6 +177,7 @@ li {
     height: 150px;
     margin: 0 auto;
     display: flex;
+    object-fit: contain;
 }
 .courses-class-class img {
     max-width: 100%;
@@ -262,6 +272,7 @@ li {
     font-size: 40px;
     padding: 50px;
     font-weight: bold;
+    font-family: Futura;
 }
 
 #images {
@@ -272,6 +283,7 @@ li {
 .image img{
     height: auto;
     width: 100%;
+    
 }
 
 .access h3{
@@ -280,6 +292,7 @@ li {
     font-size: 40px;
     /* padding: 50px; */
     font-weight: bold;
+    font-family: Futura;
 }
 
 .access-warp {
@@ -291,4 +304,5 @@ li {
 footer {
     color: #3959d9;
     text-align: center;
+    padding: 50px 0px 30px 0px;
 }
