@@ -7,10 +7,10 @@ $(function(){
 
     $('.slider').slick({
         arrows: false,
-        autoplay: false,
+        autoplay: true,
         dots: true,
         centerMode: true,
-        centerPadding: '20%',
+        centerPadding: '35%',
     });
 
     $(document).ready(function(){

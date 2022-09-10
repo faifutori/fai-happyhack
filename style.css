@@ -141,9 +141,9 @@ li {
     background-color:rgb(160, 234, 255);
   }
 
-.courses {
-    /* background-color: rgb(82, 187, 248); */
-}
+/* .courses {
+    background-color: rgb(82, 187, 248);
+} */
 
 .courses-class {
     display: flex;
