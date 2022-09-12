@@ -318,3 +318,43 @@ footer {
     text-align: center;
     padding: 50px 0px 30px 0px;
 }
+
+
+@media screen and (max-width: 800px){
+    nav a {
+        text-decoration: none;
+        padding: 20px 10px 0;
+        color: #fff;
+        display: none;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Futura;
+    }
+    .title p {
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Futura;
+    }
+   
+.title img{
+    width: 300px;
+    margin: 0px 0px 50px 20%;
+    padding-top: 200px;
+    text-align: center;
+    }
+    
+    .introducion-class {
+        display: block;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .courses-class {
+        display: block;
+        justify-content: center;
+        margin-left: 25%;
+    }
+
+    }
